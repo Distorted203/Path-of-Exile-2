@@ -2,6 +2,7 @@
 
 1. Download `PoE2_Chat_Alert_exe`.
    - If you want the Path of Exile 1 notification sound, Download the `PoE1 Alert Sound.mp3` as well.
+2. Create a folder and place the `PoE2_Chat_Alert.exe` (and optionally the audio file) in it.
 2. Launch the application and click **"Select Log File"**.
 3. Navigate to the `Client.txt` file in the Path of Exile folder.
 
