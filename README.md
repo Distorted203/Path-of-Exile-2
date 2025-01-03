@@ -76,4 +76,4 @@ python PoE2_Chat_Alert.py
 ```
 
 
-![](Images/PoE2 Alert Image.png)
+![](Images/PoE2_Alert_Image.png)
