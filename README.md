@@ -1,6 +1,7 @@
    ## For .exe Installation:
 
-1. Download `PoE2_Chat_Alert_exe` --> Extract Files.
+1. Download `PoE2_Chat_Alert_exe`.
+   - If you want the Path of Exile 1 notification sound, Download the `PoE1 Alert Sound.mp3` as well.
 2. Launch the application and click **"Select Log File"**.
 3. Navigate to the `Client.txt` file in the Path of Exile folder.
 
@@ -12,8 +13,7 @@
      - `Path of Exile 2 --> logs --> client.txt`
 
 4. Click **"Select Sound File"**:
-   - Select the provided `PoE1 Alert Sound.mp3` file.
-   - Or use a custom sound of your choice.
+   - Select the `PoE1 Alert Sound.mp3` file or another sound file of your choice.
    - Supports `.mp3` or `.wav` files.
 
 5. Click **Enable**.
@@ -25,7 +25,10 @@
 - You can hit the "X" on the top-right corner to minimize the application to the tray. The application window does not need to stay open.
 - A configuration file (`config.json`) will be created upon selecting your files to save your settings for future use.
 
+
 ---
+---
+
 
 ## For Python (.py) File:
 Below is the list of dependencies required:
