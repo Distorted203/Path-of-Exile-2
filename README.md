@@ -22,7 +22,7 @@
 
 ## Notes:
 - The `.exe` file may trigger antivirus warnings because it is unsigned. It is safe to use, and the source code is available for review.
-- You can hit the "X" on the top-right corner to minimize the application to the tray. The application window does not need to stay open.
+- On the top right of the window, clicking `_` will minimize the application to the tray, while clicking `x` will exit/close the application completely.
 - A configuration file (`config.json`) will be created upon selecting your files to save your settings for future use.
 
 
