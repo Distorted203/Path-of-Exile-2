@@ -75,8 +75,6 @@ pip install -r requirements.txt
 python PoE2_Chat_Alert.py
 ```
 
-## Screenshots
+## Screenshot
 
-![](Images/PoE2_Alert_Image.png)
-
-
+![](Images/PoE2_Alert_Image.PNG)
