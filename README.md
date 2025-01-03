@@ -1,7 +1,7 @@
    ## For .exe Installation:
 
-1. Download `PoE2_Chat_Alert_exe` from the releases [here.](https://github.com/Distorted203/Path-of-Exile-2/releases/tag/v1.1)
-   - If you want the Path of Exile 1 notification sound, Download the `PoE1 Alert Sound.mp3` as well.
+1. Download `PoE2_Chat_Alert.exe` from the releases [here.](https://github.com/Distorted203/Path-of-Exile-2/releases/tag/v1.1)
+   - If you want the Path of Exile 1 notification sound, Download the `PoE1_Alert_Sound.mp3` as well.
 2. Create a folder and place the `PoE2_Chat_Alert.exe` (and optionally the audio file) in it.
 2. Launch the application and click **"Select Log File"**.
 3. Navigate to the `Client.txt` file in the Path of Exile folder.
