@@ -1,64 +1,73 @@
+   ## For .exe Installation:
 
-## For .exe installation:
+1. Download `PoE2_Chat_Alert_exe` --> Extract Files.
+2. Launch the application and click **"Select Log File"**.
+3. Navigate to the `Client.txt` file in the Path of Exile folder.
 
-1. Extract Files
-2. Launch Application and click "Select Log File"
-3. Navigate to the Client.txt file in the Path of Exile Folder
+   - **If you are using Steam**:
+     `Steam --> steamapps --> common --> Path of Exile 2 --> logs --> client.txt`
 
- # If you are Steam:
-   - Steam --> steamapps --> common --> Path of Exile 2 --> logs --> client.txt
+   - **If you are using the GGG Launcher**:
+     - Go to the Path of Exile 2 installation folder.
+     - `Path of Exile 2 --> logs --> client.txt`
 
- # If you are using the GGG Launcher:
-   - Go to where Path of Exile 2 Install folder is
-   - Path of Exile 2 --> logs --> client.txt
+4. Click **"Select Sound File"**:
+   - Select the provided `PoE1 Alert Sound.mp3` file.
+   - Or use a custom sound of your choice.
+   - Supports `.mp3` or `.wav` files.
 
-4. Click "Select Sound File"
-   - Select the provided PoE1 Alert Sound.mp3 file
-   - Or you can use a custom sound of your choosing
-   - Supports .mp3 or .wav files.
+5. Click **Enable**.
 
-5. Enable.
-
+---
 
 ## Notes:
-- The .exe file may trigger antivirus warnings because it is unsigned. It is safe to use and the source code is available for review.
-- You can hit the "x" on the top right and it will minimize to tray. You do not need to keep the application window open.
-- A config file will be created upon selecting your files. This is to save your settings for future use.
+- The `.exe` file may trigger antivirus warnings because it is unsigned. It is safe to use, and the source code is available for review.
+- You can hit the "X" on the top-right corner to minimize the application to the tray. The application window does not need to stay open.
+- A configuration file (`config.json`) will be created upon selecting your files to save your settings for future use.
 
+---
 
+## For Python (.py) File:
+Below is the list of dependencies required:
 
-## For Python (.py) file, below is the list of dependencies required:
-
+```plaintext
 pillow==11.1.0
 pygame==2.6.1
 PyQt6==6.8.0
 pystray==0.19.5
+```
 
+---
 
 ## Installation
 
-1. Download the .zip file extract it.
-  
-2. Navigate to directory
+1. Download the .zip file and extract it.
 
-   cd <PoE2_Chat_Alert_Python>
+2. Navigate to the project directory:
+```bash
+cd PoE2_Chat_Alert_Python
+```
 
-3. Create and activate a virtual environment (optional but recommended):
+3. Create and activate a Virtual environment (optional):
 
-   # Windows
- 
-   python -m venv .venv
-   .\.venv\Scripts\activate
+ **Windows**
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate
+```
 
-   # Mac/Linux
- 
-   python3 -m venv .venv
-   source .venv/bin/activate
+ **Mac/Linux:**
+ ```bash
+ python3 -m venv .venv
+source .venv/bin/activate
+```
 
 4. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-   pip install -r requirements.txt
-
-5. Run the script:
-
-   python PoE2_Chat_Alert.py
+5. Run Script:
+```bash
+python PoE2_Chat_Alert.py
+```
