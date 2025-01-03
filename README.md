@@ -56,12 +56,16 @@ cd PoE2_Chat_Alert_Python
  **Windows**
 ```bash
 python -m venv .venv
+```
+```bash
 .\.venv\Scripts\activate
 ```
 
  **Mac/Linux:**
  ```bash
- python3 -m venv .venv
+python3 -m venv .venv
+ ```
+ ```bash
 source .venv/bin/activate
 ```
 
